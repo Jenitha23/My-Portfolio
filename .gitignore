@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Environment variables (EmailJS keys live here — never commit)
+.env
+.env.local
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

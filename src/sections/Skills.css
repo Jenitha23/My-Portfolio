@@ -1,0 +1,19 @@
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 32px 40px;
+}
+
+.skills__group-title {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--ink-dim);
+  margin-bottom: 14px;
+  letter-spacing: 0.02em;
+}
+
+.skills__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

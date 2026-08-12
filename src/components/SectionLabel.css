@@ -1,0 +1,31 @@
+.section-label {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.section-label__jsx {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--ink-strong);
+}
+
+.section-label__bracket {
+  color: var(--accent);
+}
+
+.section-label__comment {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--ink-dim);
+}
+
+@media (max-width: 560px) {
+  .section-label {
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 28px;
+  }
+}

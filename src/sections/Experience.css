@@ -1,0 +1,38 @@
+.experience__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience__item {
+  padding: 24px 0;
+  border-top: 1px solid var(--line-soft);
+}
+
+.experience__item:first-child {
+  border-top: none;
+}
+
+.experience__item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.experience__item-head h3 {
+  font-size: 18px;
+}
+
+.experience__company {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  margin: 6px 0 10px;
+}
+
+.experience__desc {
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.6;
+}
