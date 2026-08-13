@@ -10,7 +10,7 @@ function Education() {
     <section id="education" className="section education">
       <div className="container education__grid">
         <div>
-          <SectionLabel tag="Education" comment="degree & coursework" />
+          <SectionLabel tag="Education" comment="degree & coursework" index="05" />
           <ul className="education__list">
             {education.map((item, i) => (
               <motion.li

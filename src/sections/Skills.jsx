@@ -20,7 +20,7 @@ function Skills() {
   return (
     <section id="skills" className="section skills">
       <div className="container">
-        <SectionLabel tag="Skills" comment="languages, frameworks & tools" />
+        <SectionLabel tag="Skills" comment="languages, frameworks & tools" index="02" />
 
         <div className="skills__grid">
           {groups.map(([key, items], i) => (

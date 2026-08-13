@@ -3,9 +3,10 @@
 // components rendering data, not hardcoded markup.
 import "./SectionLabel.css";
 
-function SectionLabel({ tag, comment }) {
+function SectionLabel({ tag, comment, index }) {
   return (
     <div className="section-label">
+      {index && <span className="section-label__index">{index}</span>}
       <span className="section-label__jsx">
         <span className="section-label__bracket">{"<"}</span>
         {tag}

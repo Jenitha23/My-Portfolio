@@ -32,7 +32,8 @@
   transition: border-color 0.2s ease;
 }
 
-.navbar__brand:hover .navbar__brand-mark {
+.navbar__brand:hover .navbar__brand-mark,
+.navbar__brand:hover .avatar {
   border-color: var(--accent);
 }
 
@@ -42,14 +43,40 @@
 }
 
 .navbar__links a {
+  position: relative;
   font-family: var(--font-mono);
   font-size: 14px;
   color: var(--ink);
   transition: color 0.2s ease;
 }
 
+.navbar__links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s var(--ease-out);
+}
+
 .navbar__links a:hover {
   color: var(--accent);
+}
+
+.navbar__links a:hover::after {
+  transform: scaleX(1);
+}
+
+.navbar__link--active {
+  color: var(--accent-strong, var(--accent)) !important;
+}
+
+.navbar__link--active::after {
+  transform: scaleX(1) !important;
 }
 
 .navbar__toggle {

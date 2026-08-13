@@ -12,7 +12,7 @@ function Experience() {
   return (
     <section id="experience" className="section experience">
       <div className="container">
-        <SectionLabel tag="Experience" comment="internships & work" />
+        <SectionLabel tag="Experience" comment="internships & work" index="03" />
         <ul className="experience__list">
           {experience.map((role, i) => (
             <motion.li

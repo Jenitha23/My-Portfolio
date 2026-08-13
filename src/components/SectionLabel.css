@@ -5,6 +5,15 @@
   margin-bottom: 40px;
 }
 
+.section-label__index {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--ink-dim);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 3px 8px;
+}
+
 .section-label__jsx {
   font-family: var(--font-mono);
   font-size: 22px;

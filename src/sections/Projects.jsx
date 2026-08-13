@@ -10,7 +10,7 @@ function Projects() {
   return (
     <section id="projects" className="section projects">
       <div className="container">
-        <SectionLabel tag="Projects" comment={`${projects.length} shipped`} />
+        <SectionLabel tag="Projects" comment={`${projects.length} shipped`} index="04" />
 
         <div className="projects__grid">
           {projects.map((project, i) => (

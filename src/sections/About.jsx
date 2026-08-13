@@ -7,7 +7,7 @@ function About() {
   return (
     <section id="about" className="section about">
       <div className="container">
-        <SectionLabel tag="About" comment="background & focus" />
+        <SectionLabel tag="About" comment="background & focus" index="01" />
         <motion.p
           className="about__text"
           initial={{ opacity: 0, y: 20 }}

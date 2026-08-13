@@ -53,7 +53,7 @@ function Contact() {
     <section id="contact" className="section contact">
       <div className="container contact__grid">
         <div>
-          <SectionLabel tag="Contact" comment="let's talk" />
+          <SectionLabel tag="Contact" comment="let's talk" index="06" />
           <p className="contact__intro">
             Have an opportunity, a project, or just want to say hi? My inbox is open.
           </p>

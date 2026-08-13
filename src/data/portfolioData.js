@@ -7,7 +7,7 @@ export const portfolioData = {
     location: "Sri Lanka",
     email: "",
     phone: "",
-    profileImage: ""
+    profileImage: "/profile.jpg"
   },
 
   about: {
