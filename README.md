@@ -5,7 +5,7 @@ single config file, styling is token-based (easy to re-theme), and the contact f
 sends real email via EmailJS with no backend required.
 
 **Live site:** [my-portfolio-omega-sable-25.vercel.app](https://my-portfolio-omega-sable-25.vercel.app/)
-**Repository:** _add your GitHub repo URL here_
+**Repository:** [github.com/Jenitha23/My-Portfolio](https://github.com/Jenitha23/My-Portfolio)
 
 ---
 
